@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/colors.xml -->
+<resources>
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!-- Background Colors -->
+    <color name="backgroundLight">#F5F5F5</color>
+    <color name="cardBackground">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="textPrimary">#000000</color>
+    <color name="textSecondary">#757575</color>
+
+    <!-- Button Colors -->
+    <color name="buttonBackground">#6200EE</color>
+    <color name="buttonText">#FFFFFF</color>
+
+    <color name="pageBackgroundColor">#E0F7FA</color>
+    <color name="cardBackgroundColor">#FFFFFF</color>
+    <color name="profileTextColor">#00796B</color>
+    <color name="buttonColorUpdateProfile">#00796B</color>
+    <color name="buttonColorViewBalance">#4CAF50</color>
+    <color name="buttonColorPreviousTransactions">#FFC107</color>
+    <color name="buttonColorTransferMoney">#F44336</color>
+    <color name="buttonColorNotifications">#2196F3</color>
+    <color name="buttonColorBookSession">#9C27B0</color>
+</resources>

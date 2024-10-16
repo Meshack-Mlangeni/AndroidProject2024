@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".sendMoney"
+    android:padding="16dp">
+
+
+
+    <!-- Header Section -->
+    <TextView
+        android:id="@+id/tv_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transfer Money"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:padding="16dp"
+        android:layout_gravity="center_horizontal"
+         />
+
+    <!-- Sender Bank Account Number -->
+    <TextView
+        android:id="@+id/tv_sender_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sender Account"
+        android:textStyle="bold"
+
+        android:paddingTop="8dp" />
+
+    <EditText
+        android:id="@+id/et_sender_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sender Bank Account Number"
+        android:backgroundTint="#6200EE"
+        android:enabled="false" />
+
+    <!-- Receiver Bank Account Number -->
+    <TextView
+        android:id="@+id/tv_receiver_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Receiver Account"
+        android:textStyle="bold"
+        android:paddingTop="8dp" />
+
+    <EditText
+        android:id="@+id/et_receiver_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Receiver Bank Account Number"
+        android:backgroundTint="#6200EE" />
+
+    <!-- Amount -->
+    <TextView
+        android:id="@+id/tv_amount_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount"
+        android:textStyle="bold"
+
+        android:paddingTop="8dp" />
+
+    <EditText
+        android:id="@+id/et_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount"
+        android:inputType="numberDecimal"
+        android:backgroundTint="#6200EE" />
+
+    <!-- Available Balance -->
+    <TextView
+        android:id="@+id/tv_available_balance_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available Balance"
+        android:textStyle="bold"
+
+        android:paddingTop="8dp" />
+
+    <EditText
+        android:id="@+id/et_available_balance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Available Balance"
+        android:backgroundTint="#6200EE"
+        android:enabled="false" />
+
+    <!-- Transfer Button -->
+    <Button
+        android:id="@+id/btn_transfer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transfer"
+        android:backgroundTint="#03A9F4"
+        android:textColor="#FFFFFF"
+
+        android:layout_marginTop="16dp" />
+
+    <!-- Go Back Button -->
+    <Button
+        android:id="@+id/btn_go_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFFFFF"
+
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

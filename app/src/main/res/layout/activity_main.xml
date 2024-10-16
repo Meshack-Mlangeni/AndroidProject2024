@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F9F9F9"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Welcome Back Text -->
+<TextView
+android:id="@+id/welcome_text"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Welcome back, login to your account"
+android:textSize="24sp"
+android:textColor="#212121"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:paddingBottom="24dp" />
+
+    <!-- Email Input -->
+<EditText
+android:id="@+id/email_input"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="@drawable/edit_text_background"
+    android:hint="Enter email address"
+    android:inputType="textEmailAddress"
+    android:padding="12dp"
+    android:layout_marginBottom="16dp" />
+
+    <!-- Password Input -->
+<EditText
+android:id="@+id/password_input"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Enter password"
+android:inputType="textPassword"
+android:padding="12dp"
+android:background="@drawable/edit_text_background"
+    android:layout_marginBottom="16dp" />
+
+    <!-- Remember Me Checkbox -->
+<CheckBox
+android:id="@+id/remember_me"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Remember me"
+android:textColor="#212121"
+    android:layout_gravity="start"
+    android:layout_marginBottom="24dp" />
+
+    <!-- Login Button -->
+<Button
+android:id="@+id/login_button"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Login to your account"
+android:backgroundTint="#6200EE"
+    android:textColor="#FFFFFF"
+    android:layout_marginBottom="16dp" />
+
+    <!-- Register Link -->
+<TextView
+android:id="@+id/register_link"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center"
+android:clickable="true"
+android:focusable="true"
+android:minHeight="48dp"
+android:padding="8dp"
+android:text="Don't have an account? Create an account"
+android:textColor="#6200EE"
+    android:textStyle="bold" />
+    </LinearLayout>
